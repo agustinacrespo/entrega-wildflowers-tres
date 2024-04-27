@@ -1,0 +1,16 @@
+ /* TIENDA */
+
+ main {
+    .ver-todos-productos {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+
+        div {
+            .btn {
+                padding-left: 50px;
+                padding-right: 50px;
+              }
+        }
+      }
+ }

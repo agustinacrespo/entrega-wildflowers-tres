@@ -1,4 +1,20 @@
 // IMPORT
 
-//base
+// base
 @import './base/reset';
+
+// layout
+@import './layout/header';
+@import './layout/footer';
+@import './layout/tipssiembra';
+@import './layout/tienda';
+@import './layout/contacto';
+@import './layout/about';
+
+// components
+@import './components/breadcrumb';
+@import './components/cards';
+
+
+
+

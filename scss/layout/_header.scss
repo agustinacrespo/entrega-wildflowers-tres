@@ -1,0 +1,46 @@
+// ESTILO HEADER
+
+header {
+    border-bottom: 1.5px solid #595959;
+    height: 50%;
+
+    nav {
+        div {
+            div {
+                .logo-wild-flowers {
+                    width: 200px;
+                    height: 200px;
+                    background-position: center;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+
+            .iconos-header{
+                display: flex;
+
+                .icono-lupa {
+                    width: 25px;
+                    height: 25px;
+                    background-position: center;
+                    margin: 5px;
+                }
+
+                .icono-usuario {
+                    width: 25px;
+                    height: 25px;
+                    background-position: center;
+                    margin: 5px;
+                }
+
+                .icono-bolsa-compras {
+                    width: 25px;
+                    height: 25px;
+                    background-position: center;
+                    margin: 5px;
+                }
+            }
+
+        }
+    }
+  }

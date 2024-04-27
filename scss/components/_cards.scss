@@ -1,0 +1,19 @@
+main {
+    section {
+        .card {
+            .card-body {
+                .agregar-carrito-color {
+                    background-color: #F2F2F2;
+                    color: #595959;
+                    border-color: #595959;
+                    margin-left: 45px;
+                  }
+
+                a:hover {
+                    background-color: #595959;
+                    color: #F2F2F2; 
+                  }
+            }
+        }
+    }
+}

@@ -86,4 +86,230 @@ p {
   color: #595959;
 }
 
+header {
+  border-bottom: 1.5px solid #595959;
+  height: 50%;
+}
+header nav div div .logo-wild-flowers {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+header nav div .iconos-header {
+  display: flex;
+}
+header nav div .iconos-header .icono-lupa {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+header nav div .iconos-header .icono-usuario {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+header nav div .iconos-header .icono-bolsa-compras {
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  margin: 5px;
+}
+
+/* ESTILO FOOTER */
+.footer-container .footer-link {
+  font-family: "Roboto", sans-serif;
+  background-color: #F2F2F2;
+  color: #595959;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.footer-container .footer-link .link {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.footer-container .footer-link .link .footer-subtitulos {
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  flex-wrap: wrap;
+}
+.footer-container .footer-link .link p {
+  font-size: 13px;
+  color: #595959;
+}
+.footer-container .footer-link .link ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
+  color: #595959;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-left: -28px;
+}
+.footer-container .footer-link .link ul li a {
+  display: block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
+  color: #595959;
+  font-family: "Roboto", sans-serif;
+}
+.footer-container .footer-link .link .redes-sociales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container .footer-link .link .redes-sociales .icono-instagram {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.footer-container .footer-link .link .redes-sociales ul li a {
+  margin-top: 10px;
+}
+
+/* TIPS DE SIEMBRA */
+body main section .wild-flowers-tips-h1 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+body main section .wild-flowers-tips-p-titulo {
+  text-align: center;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+body main div div div {
+  /* COMENTARIOS EN CURSIVA */
+}
+body main div div div .images-tips-pasos-1 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .images-tips-pasos-2-1 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .images-tips-pasos-2-2 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .images-tips-pasos-2-3 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .images-tips-pasos-2-4 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .images-tips-pasos-4 {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .tips-pasos-h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  color: #595959;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 4px;
+}
+body main div div div .tips-pasos-p {
+  font-family: "Roboto", sans-serif;
+}
+body main div div div .paragraph-one {
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+
+/* TIENDA */
+main .ver-todos-productos {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main .ver-todos-productos div .btn {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* CONTACTO */
+body main div div div ul li {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0px;
+  margin-left: 0px;
+}
+
+/* ABOUT */
+body main section .wild-flowers-about-h1 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+body main section .wild-flowers-about-p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+body main div div div .images-about-me {
+  width: 100%;
+  margin-top: 25px;
+}
+body main div div div .wild-flowers-about-h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+body main div div div .wild-flowers-about-p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+/* ESTILO BREADCRUMB */
+body main section nav ol li .breadcrumb-item-inicio {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #595959;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0px;
+}
+
+main section .card .card-body .agregar-carrito-color {
+  background-color: #F2F2F2;
+  color: #595959;
+  border-color: #595959;
+  margin-left: 45px;
+}
+main section .card .card-body a:hover {
+  background-color: #595959;
+  color: #F2F2F2;
+}
+
 /*# sourceMappingURL=style.css.map */
