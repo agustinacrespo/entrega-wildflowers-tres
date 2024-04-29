@@ -88,11 +88,13 @@ p {
 
 header {
   border-bottom: 1.5px solid #595959;
-  height: 50%;
+  height: 100%;
+}
+header nav div div ul li a {
+  margin: 10px;
 }
 header nav div div .logo-wild-flowers {
   width: 200px;
-  height: 200px;
   background-position: center;
   margin: 0px;
   padding: 0px;
@@ -178,6 +180,31 @@ header nav div .iconos-header .icono-bolsa-compras {
   margin-top: 10px;
 }
 
+/* Media query */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    border-bottom: 1.5px solid #595959;
+    flex-direction: column;
+  }
+  header nav .iconos-header {
+    visibility: hidden;
+  }
+  header nav div div {
+    align-items: center;
+  }
+  header nav div div .navbar-brand {
+    width: 150px;
+    margin-left: 0px;
+  }
+  header nav div div .logo-wild-flowers {
+    height: 100%;
+    width: auto;
+  }
+  header nav div div .navbar-toggler {
+    margin-right: 0px;
+    height: 50px;
+  }
+}
 /* TIPS DE SIEMBRA */
 body main section .wild-flowers-tips-h1 {
   text-align: center;
@@ -192,8 +219,9 @@ body main section .wild-flowers-tips-p-titulo {
   font-family: "Roboto", sans-serif;
   margin-bottom: 10px;
 }
-
-
+body main div div div {
+  /* COMENTARIOS EN CURSIVA */
+}
 body main div div div .images-tips-pasos-1 {
   width: 100%;
   margin-top: 25px;

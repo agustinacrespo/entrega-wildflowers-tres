@@ -2,14 +2,22 @@
 
 header {
     border-bottom: 1.5px solid #595959;
-    height: 50%;
+    height: 100%;
 
     nav {
         div {
             div {
+                ul {
+                    li {
+                        a {
+                            margin: 10px;
+                        }
+                    }
+                }
+
+
                 .logo-wild-flowers {
                     width: 200px;
-                    height: 200px;
                     background-position: center;
                     margin: 0px;
                     padding: 0px;
