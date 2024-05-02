@@ -33,37 +33,5 @@
         }
     }
 
-    .frase-index {
-        display: block;
-        height: auto;
-    
-        .frase-container {
-            padding: 0px;
-            display: block;
-            
-            p {
-                color: #ebedec;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: 10px;
-                font-style: italic;
-                transform: translate(-50px , -50px);
-    
-            }
-        }
-    
-        .frase-img{
-            display: block;
-            img {
-                width: 100%;
-                margin-left: -150px;
-                box-shadow: 10px 8px 5px -6px rgba(0,0,0,0.34);
-                -webkit-box-shadow: 10px 8px 5px -6px rgba(0,0,0,0.34);
-                -moz-box-shadow: 10px 8px 5px -6px rgba(0,0,0,0.34);
-                
-
-            }
-        }
-
-    }
 
 }
